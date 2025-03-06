@@ -11,6 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      
+      - name: echo a string
+        run: echo  "hello world"
+        
       - name: Checkout code
         uses: actions/checkout@v3
 
