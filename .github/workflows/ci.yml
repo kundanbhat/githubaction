@@ -15,7 +15,10 @@ jobs:
       - name: echo a string
         run: echo  "hello world"
       - name: echo first java actions
-        run: echo "this is our first application"          
+        run: echo "this is our first application"  
+
+      - name: echo second java actions
+        run: echo "this is our secnod application"        
         
       - name: Checkout code
         uses: actions/checkout@v3
